@@ -11,7 +11,7 @@ Halo! Saya Ali. Ini adalah dokumentasi perjalanan saya belajar menjadi IT System
 - <img width="802" height="302" alt="gambar" src="https://github.com/user-attachments/assets/15446f01-da9b-4db7-8a67-605154d62005" />
 
 ## Lab 2: Hybrid Cloud Monitoring dengan Zabbix
-- **Tanggal:** [Isi Tanggal Hari Ini]
+- **Tanggal:** 28 Oktober 2026
 - **Tujuan:** Membangun sistem monitoring terpusat (Zabbix Server) di AWS untuk memantau perangkat *on-premise* (Laptop Debian) dan simulasi jaringan (GNS3).
 - **Tools:** AWS EC2, Zabbix 7.0, Debian 13, GNS3, MikroTik, SNMP.
 - **Tantangan & Solusi:** 
