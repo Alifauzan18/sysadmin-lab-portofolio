@@ -7,7 +7,7 @@ Halo! Saya Ali. Ini adalah dokumentasi perjalanan saya belajar menjadi IT System
 - **Tujuan:** Membuat script Bash untuk memonitor resource sistem secara otomatis (Waktu, Disk, RAM, CPU).
 - **Tools:** Debian 13, Bash.
 - **Hasil:** Berhasil membuat script `cek_sistem.sh` dan mengeksekusinya.
-- <img width="802" height="302" alt="gambar" src="https://github.com/user-attachments/assets/15446f01-da9b-4db7-8a67-605154d62005" />
+  <img width="802" height="302" alt="gambar" src="https://github.com/user-attachments/assets/15446f01-da9b-4db7-8a67-605154d62005" />
 
 ## Lab 2: Hybrid Cloud Monitoring dengan Zabbix
 - **Tujuan:** Membangun sistem monitoring terpusat (Zabbix Server) di AWS untuk memantau perangkat *on-premise* (Laptop Debian) dan simulasi jaringan (GNS3).
@@ -30,6 +30,6 @@ Halo! Saya Ali. Ini adalah dokumentasi perjalanan saya belajar menjadi IT System
 
 **Dokumentasi & Konfigurasi:**
 - Topologi simulasi infrastruktur sebuah perusahaan dengan 3 cabang.
-- <img width="1366" height="657" alt="gambar" src="https://github.com/user-attachments/assets/3c3896be-3c22-49cc-8744-b59e6a805cf7" />
+  <img width="1366" height="657" alt="gambar" src="https://github.com/user-attachments/assets/3c3896be-3c22-49cc-8744-b59e6a805cf7" />
 - Berhasil remote Node Mikrotik CHR dengan winbox via VPN WireGuard
-- <img width="1204" height="738" alt="gambar" src="https://github.com/user-attachments/assets/df976401-defd-424e-a55d-cff1808dc05f" />
+  <img width="1204" height="738" alt="gambar" src="https://github.com/user-attachments/assets/df976401-defd-424e-a55d-cff1808dc05f" />
