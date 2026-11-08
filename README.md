@@ -33,3 +33,20 @@ Halo! Saya Ali. Ini adalah dokumentasi perjalanan saya belajar menjadi IT System
   <img width="1366" height="657" alt="gambar" src="https://github.com/user-attachments/assets/3c3896be-3c22-49cc-8744-b59e6a805cf7" />
 - Berhasil remote Node Mikrotik CHR dengan winbox via VPN WireGuard
   <img width="1204" height="738" alt="gambar" src="https://github.com/user-attachments/assets/df976401-defd-424e-a55d-cff1808dc05f" />
+
+## Lab 4: Automated Backup Script & Cronjob (AWS EC2)
+- **Tujuan:** Membuat sistem otomatisasi backup file secara berkala pada server Ubuntu di AWS EC2 untuk mencegah kehilangan data.
+- **Tools:** AWS EC2 (Ubuntu Server 26.04), Bash Scripting, Cronjob.
+
+**Langkah Implementasi:**
+1. Membuat script `auto_backup.sh` menggunakan Bash untuk mengompresi folder target menjadi format `.tar.gz` dengan nama file berbasis *timestamp* (tanggal & jam).
+2. Melakukan *troubleshooting* pada script di mana *error* awal terjadi karena mencoba membaca folder `/var/log` yang membutuhkan akses *root*. Solusinya, mengubah target direktori ke folder yang diizinkan (`/home/ubuntu/sysadmin-lab`).
+3. Menjadwalkan script berjalan otomatis menggunakan **Cronjob** (`crontab -e`).
+
+**Hasil:**
+Script berhasil dieksekusi secara manual dan menghasilkan file backup. 
+<img width="799" height="77" alt="gambar" src="https://github.com/user-attachments/assets/936eb174-7eff-4ca3-9344-4c2fceb36dfb" />
+
+**Konfigurasi Cron:**
+<img width="802" height="57" alt="gambar" src="https://github.com/user-attachments/assets/9b123922-e929-4dac-8885-09b28b81c842" />
+<img width="804" height="171" alt="gambar" src="https://github.com/user-attachments/assets/0e3c56de-5fe6-40ad-ac07-20879333c9cb" />
