@@ -48,5 +48,6 @@ Script berhasil dieksekusi secara manual dan menghasilkan file backup.
 <img width="799" height="77" alt="gambar" src="https://github.com/user-attachments/assets/936eb174-7eff-4ca3-9344-4c2fceb36dfb" />
 
 **Konfigurasi Cron:**
+
 <img width="802" height="57" alt="gambar" src="https://github.com/user-attachments/assets/9b123922-e929-4dac-8885-09b28b81c842" />
 <img width="804" height="171" alt="gambar" src="https://github.com/user-attachments/assets/0e3c56de-5fe6-40ad-ac07-20879333c9cb" />
