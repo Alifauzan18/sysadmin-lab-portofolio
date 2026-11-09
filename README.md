@@ -51,3 +51,21 @@ Script berhasil dieksekusi secara manual dan menghasilkan file backup.
 
 <img width="802" height="57" alt="gambar" src="https://github.com/user-attachments/assets/9b123922-e929-4dac-8885-09b28b81c842" />
 <img width="804" height="171" alt="gambar" src="https://github.com/user-attachments/assets/0e3c56de-5fe6-40ad-ac07-20879333c9cb" />
+
+## Lab 5: Web Server Deployment dengan Docker (AWS EC2)
+- **Tujuan:** Melakukan *deployment* Web Server (Nginx) di dalam *Container* menggunakan Docker, dan melakukan kustomisasi halaman web menggunakan *Docker Volumes*.
+- **Tools:** AWS EC2 (Ubuntu), Docker, Nginx.
+
+**Langkah Implementasi:**
+1. Instalasi Docker Engine pada instance Ubuntu AWS.
+2. Menjalankan Nginx Container (`docker run -d -p 80:80`).
+3. Melakukan *troubleshooting* dan verifikasi status container menggunakan `docker ps`.
+4. Membuat halaman web kustom (`index.html`) di *host* AWS.
+5. Menggunakan parameter `-v` (Docker Volume) untuk me-mount file `index.html` lokal ke dalam direktori `/usr/share/nginx/html` di dalam container.
+
+**Hasil:**
+Web server Nginx berhasil berjalan di dalam container dan menampilkan halaman web kustom yang dapat diakses melalui IP Public AWS.
+
+<img width="801" height="112" alt="gambar" src="https://github.com/user-attachments/assets/8a3cee44-a10a-476c-a004-f49eea48ceb6" />
+
+<img width="1366" height="742" alt="gambar" src="https://github.com/user-attachments/assets/1cac7d23-b8d6-41fa-a179-52fc00b1bbd8" />
