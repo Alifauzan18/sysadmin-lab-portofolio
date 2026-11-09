@@ -67,5 +67,10 @@ Script berhasil dieksekusi secara manual dan menghasilkan file backup.
 Web server Nginx berhasil berjalan di dalam container dan menampilkan halaman web kustom yang dapat diakses melalui IP Public AWS.
 
 <img width="801" height="112" alt="gambar" src="https://github.com/user-attachments/assets/8a3cee44-a10a-476c-a004-f49eea48ceb6" />
-
 <img width="1366" height="742" alt="gambar" src="https://github.com/user-attachments/assets/1cac7d23-b8d6-41fa-a179-52fc00b1bbd8" />
+
+**Implementasi Lanjutan (Docker Compose):**
+Mengotomatisasi deployment container menggunakan file `docker-compose.yml`. Ini memungkinkan manajemen konfigurasi (port, volume, restart policy) yang lebih rapi dan dapat direplikasi di server lain hanya dengan satu perintah (`docker compose up -d`).
+
+<img width="803" height="118" alt="gambar" src="https://github.com/user-attachments/assets/b6679222-cd9f-48a5-a2ea-f0835b06ea12" />
+<img width="803" height="92" alt="gambar" src="https://github.com/user-attachments/assets/283bbc05-3035-48ba-a992-80d10047f27e" />
